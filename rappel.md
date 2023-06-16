@@ -1,3 +1,7 @@
+http://localhost/poo-livre/
+
+
+
 - un dossier class avec tout les fichier class a l'intérieur
 
 - et index.php toujours a la racine du projet

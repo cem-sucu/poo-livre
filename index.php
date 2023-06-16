@@ -12,14 +12,21 @@ spl_autoload_register(function ($class_name){
 });
 
 
-$personne = new Auteur("King", "Stephen");
-$oeuvre = new Livre("Simetiere", 1138, "1983",15, $personne);
+$personne = new Auteur(" King ", " Stephen ");
+$oeuvre1 = new Livre(" Ca ", 1138, " 1986 ", 20, $personne);
+$oeuvre2 = new Livre(" Simetiere ", 374, " 1983 ",15, $personne);
+$oeuvre3 = new Livre("Le Fléau ", 823, " 1978 ", 16, $personne);
+$oeuvre4 = new Livre("Shining ", 447, " 1977 ", 16, $personne );
 
-echo $personne->getNom();
-echo $oeuvre->getTitre();
+// echo $personne->getNom();
+// echo $oeuvre->getTitre();
 
 echo $personne;
+echo $oeuvre1;
+echo $oeuvre2;
+echo $oeuvre3;
+echo $oeuvre4;
 
-
-
+echo $personne->afficherBibliographie();
+ 
 ?>
