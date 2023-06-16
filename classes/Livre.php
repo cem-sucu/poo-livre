@@ -66,12 +66,5 @@ class Livre{
     return $this->getTitre() ."(" .$this->getAnneeParution()->format('Y') .") : ".$this->getNbrePage() . " page " ." / " .$this->getPrix() . " € " ."<br>";
    }
 
-
-
-
-
-
-//la méthode afficherBibliographie() 
-
 }
 ?>

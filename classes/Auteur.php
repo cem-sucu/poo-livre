@@ -53,7 +53,7 @@ public function getBibliographies(){
    public function afficherBibliographie(){
     $result = "<h1>Auteur $this</h1>";
     foreach($this->bibliographies as $bibliographies){
-        $result = $bibliographies ."<br>";
+        $result .="<li>$bibliographies </li>";
     }
 
     return $result;

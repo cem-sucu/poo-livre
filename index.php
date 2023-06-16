@@ -21,11 +21,11 @@ $oeuvre4 = new Livre("Shining ", 447, " 1977 ", 16, $personne );
 // echo $personne->getNom();
 // echo $oeuvre->getTitre();
 
-echo $personne;
-echo $oeuvre1;
-echo $oeuvre2;
-echo $oeuvre3;
-echo $oeuvre4;
+// echo $personne;
+// echo $oeuvre1;
+// echo $oeuvre2;
+// echo $oeuvre3;
+// echo $oeuvre4;
 
 echo $personne->afficherBibliographie();
  
